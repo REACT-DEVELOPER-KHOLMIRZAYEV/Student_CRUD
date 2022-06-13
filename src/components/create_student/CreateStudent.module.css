@@ -1,0 +1,72 @@
+.modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.464);
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.modal_wrapper {
+    width: 60%;
+    min-width: 1200px;
+    height: 800px;
+    background-color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.modal_wrapper h2 {
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+.fix {
+    width: 40px;
+    height: 40px;
+    background-color: #EB4C4B;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 23px;
+    border: none;
+    margin-top: -20px;
+    position: absolute;
+    right: -20px;
+    cursor: pointer;
+}
+
+form {
+    width: 100%;
+}
+
+.student_input,
+.student_btn {
+    width: 40%;
+    font-size: 22px;
+    text-indent: 10px;
+    height: 50px;
+    margin: 18px 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid gray;
+}
+
+.number::-webkit-outer-spin-button,
+.number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.student_btn {
+    background-color: green;
+    border: none;
+    color: white;
+}

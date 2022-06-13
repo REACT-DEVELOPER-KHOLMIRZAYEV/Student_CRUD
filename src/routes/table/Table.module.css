@@ -1,0 +1,103 @@
+.table {
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.table_nav {
+    width: 95%;
+    height: 150px;
+    margin: 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 0 30px;
+}
+
+.table_nav button {
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+.table_wrapper {
+    min-width: 95%;
+    height: auto;
+    margin: 50px 40px;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 20px 10px;
+    overflow-y: auto;
+}
+
+.table_wrapper::-webkit-scrollbar {
+    width: 1em;
+}
+
+.table_wrapper::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.table_wrapper::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+table {
+    width: 90%;
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+thead {
+    width: 100%;
+    background-color: rgb(80, 80, 83);
+    font-size: 22.5px;
+    color: white;
+    padding: 50px 0;
+    border: 1px solid grey;
+
+}
+
+tbody {
+    margin: 100px 0;
+    font-size: 23px;
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+tbody tr td:last-child {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    color: red;
+    /* margin: 32px 0; */
+    font-size: 23px;
+    padding: 35px 0;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+tbody tr td:last-child {
+    border-top: none;
+    border-bottom: 1px solid grey;
+}
+
+tbody tr td:last-child svg:first-child {
+    color: rgb(43, 255, 0);
+}
+
+tbody tr td:last-child svg:nth-child(2) {
+    color: yellow
+}
+
+th,
+td {
+    text-align: center;
+    padding: 0 10px;
+    border: 1px solid rgb(53, 52, 52);
+}

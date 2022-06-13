@@ -1,0 +1,73 @@
+.modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.623);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.modal_wrapper {
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.modal_wrapper h2 {
+  margin: 0px 0 20px 0;
+  font-size: 40px;
+}
+
+.button__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  /* background-color: green; */
+}
+
+.button__wrapper>button {
+  padding: 7px 30px;
+  margin: 0 20px;
+}
+
+.modal__container>h2 {
+  font-size: 30px;
+}
+
+.modal__container>p {
+  font-size: 20px;
+}
+
+.button__wrapper>button:first-child {
+  background-color: var(--main-success-backgroundcolor);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.button__wrapper>button:last-child {
+  background-color: #f34b4b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.button__wrapper>button:first-child:focus {
+  box-shadow: 0px 0px 0px 4px #64e964a6;
+}
+
+.button__wrapper>button:last-child:focus {
+  box-shadow: 0px 0px 0px 4px #f34b4ba6;
+}

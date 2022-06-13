@@ -1,0 +1,5 @@
+export const USER_AUTHENTICATION = "USER_AUTHENTICATION";
+export const USER_FAILURE = "USER_FAILURE";
+export const USER_SIGNOUT = 'USER_SIGNOUT';
+export const STUDENT_ID = 'STUDENT_ID';
+export const ALL_DATA_ACTION = 'ALL_DATA_ACTION';
